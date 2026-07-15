@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Pulse Digital</title>
+<meta name="description" content="Get in touch with Pulse Digital for website development, SEO, social media, PPC and email marketing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo"><span class="dot"></span>Pulse Digital</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Work</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline">Get a proposal</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <h1>Tell us the number you're trying to move.</h1>
+    <p>Share a few details and we'll respond within one business day with next steps.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div class="card">
+      <form id="contact-form">
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-field">
+          <label for="service">Service you need</label>
+          <select id="service" name="service">
+            <option>Website Development</option>
+            <option>SEO Services</option>
+            <option>Social Media Services</option>
+            <option>PPC Services</option>
+            <option>Email Marketing</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message &rarr;</button>
+        <p id="form-note" style="margin-top:16px;font-size:14px;"></p>
+      </form>
+    </div>
+
+    <div>
+      <h4 style="font-size:20px;margin-bottom:16px;">Other ways to reach us</h4>
+      <ul style="display:flex;flex-direction:column;gap:16px;color:var(--slate);font-size:15px;">
+        <li><strong style="color:var(--ink);">Email</strong><br>hello@pulsedigital.example</li>
+        <li><strong style="color:var(--ink);">Phone</strong><br>+91-89712 24057</li>
+        <li><strong style="color:var(--ink);">Location</strong><br>Chennai, India</li>
+        <li><strong style="color:var(--ink);">LinkedIn</strong><br>linkedin.com/in/seoanddigitalmarketingspeacialist</li>
+      </ul>
+      <hr class="divider" style="margin:28px 0;">
+      <p style="color:var(--slate);font-size:14px;">Note: this contact form is client-side only, since the site is on free static hosting with no backend. See the deployment guide for connecting it to a real inbox using Formspree or a similar free form service.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px;"><span class="dot"></span>Pulse Digital</div>
+        <p style="color:var(--slate);font-size:14px;max-width:260px;">A performance marketing studio for teams who want their marketing spend to show its work.</p>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html#web">Website Development</a></li>
+          <li><a href="services.html#seo">SEO Services</a></li>
+          <li><a href="services.html#social">Social Media</a></li>
+          <li><a href="services.html#ppc">PPC Services</a></li>
+          <li><a href="services.html#email">Email Marketing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Chennai, India</li>
+          <li>hello@pulsedigital.example</li>
+          <li>+91-89712 24057</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Pulse Digital. All rights reserved.</span>
+      <span>Built and hosted on GitHub Pages.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
